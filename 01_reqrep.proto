@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package messagething;
+
+service MessageThing {
+  rpc SayHello (Sup) returns (Sup) {}
+}
+
+message Sup {
+  required string msg = 1;
+}

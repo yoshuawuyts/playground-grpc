@@ -1,0 +1,15 @@
+{
+  "name": "playground-grpc",
+  "version": "1.0.0",
+  "description": "Playing around with `grpc` in Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yoshua Wuyts <yoshuawuyts@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "grpc": "^1.0.0"
+  }
+}
