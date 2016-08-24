@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package messages;
+
+service MessageThing {
+  rpc EchoHello (stream Sup) returns (stream Sup) {}
+}
+
+message Sup {
+  required string msg = 1;
+}

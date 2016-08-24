@@ -10,6 +10,7 @@
   "author": "Yoshua Wuyts <yoshuawuyts@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "grpc": "^1.0.0"
+    "grpc": "^1.0.0",
+    "pump": "^1.0.1"
   }
 }
